@@ -1,0 +1,71 @@
+* {
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+img {
+	
+	max-width: 100%;
+	/*height : auto;*/
+}
+
+ div.container{
+	
+	width : 650px;
+	margin : 15px auto ;
+	padding : 0;
+}
+
+div.div1 {
+	
+	width : 850px; 
+	margin : 10px auto;
+	padding : 0;
+}
+
+.title {
+
+	font-size: 2rem;
+	font-weight: 700;
+	/*margin : ;*/
+}
+
+div.info {
+	
+	margin : 10px 0;
+}
+
+.form-control{
+
+	width : 300px;
+}
+.custom-select{
+	width : 300px;
+}
+div.line{
+	margin : 10px auto ;
+	background-color: whitesmoke;	
+	border : 2px solid blueviolet;
+	border-radius: 5px;
+	width : 900px;
+	
+}
+div.button
+
+{
+
+   margin: 	auto;
+
+   width: 50%;
+
+}
+
+ 
+
+div.button button  {
+
+   padding: 5px;
+
+   width: 100%;
+
+   font-size: 18px;
+
+}

@@ -1,0 +1,19 @@
+body{
+	 background-color: #fff400;
+}
+.yellow-color{
+	 font-size: 150%;
+	 margin: 100px;
+	 border: 1px solid #000;
+}
+.bold{
+	 font-weight: 700;
+}
+#blue-color{ 
+	 color: #0054FF;
+	 padding: 100px;
+	 border: 1px solid red;
+}
+.testbutton{
+	text-align: right;
+}
