@@ -1,2 +1,2 @@
-# SCC_
+# SCC_woobeen
 근성
