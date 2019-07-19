@@ -1,2 +1,4 @@
 # SCC_woobeen
-근성
+그
+은
+
