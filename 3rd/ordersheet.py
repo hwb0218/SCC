@@ -13,7 +13,7 @@ def post_order():
    address_receive = request.form['address_give']
    phonenum_reecive = request.form['phonenum_give']
 
-   order_sheet = {'name_give' : name_receive , 'quantity ' : quantity_receive , 'address_give' : address_receive , 'phonenum_give' : phonenum_reecive}
+   order_sheet = {'name_give' : name_receive , 'quantity_give ' : quantity_receive , 'address_give' : address_receive , 'phonenum_give' : phonenum_reecive}
    order_sheets.append(order_sheet)
 
    return jsonify({'result': 'success'})
