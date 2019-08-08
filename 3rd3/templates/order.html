@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+      <!-- Webpage Title -->
+    <title>Hello, world!</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="{{ url_for('static', filename='js/homeworkjs.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homeworkcss.css') }}">
+
+  </head>
+  <body>
+    <div class="img-product">
+    </div>
+    <div class="contents">
+      <div class="title">
+        <span class="big-font">공룡알을 팝니다!</span> 개당 5만원!
+      </div>
+      <div class="description">
+        <div class="card">
+          <div class="card-body">
+              이 공룡알은 말이죠! 세상에 단 하나뿐인 시료로 만들어져 있어요. 딱 내일까지만 파는 물건이랍니다!
+          </div>
+        </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">주문자 성함</span>
+            </div>
+            <input type="text" class="form-control" id="order-name">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text">수량</label>
+          </div>
+          <select class="custom-select" id="order-count">
+            <option selected>수량을 선택하세요</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">주소</span>
+            </div>
+            <input type="text" class="form-control" id="order-address">
+        </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">전화번호</span>
+            </div>
+            <input type="text" class="form-control" id="order-phone">
+        </div>
+      </div>
+      <button onclick="order()" class="btn btn-primary">주문하기</button>
+    </div>
+  </body>
+</html>

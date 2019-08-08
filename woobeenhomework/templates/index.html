@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script>
+    function get_posting() {
+        $('#cards-box').empty('');
+        $.ajax({
+          type: "GET",
+          url: "/get",
+          data: {},
+          success: function(response){
+          console.log(response);
+            let songs = response['songs'];
+            console.log(songs)
+            for (let i = 0 ; i < songs.length; i++) {
+              let title = songs[i]['title'];
+              make_card(title);
+            }
+          }
+        })
+      }
+      function make_card(title) {
+        $('.list').append('<li>'+title+'</li>');
+      }
+      $( document ).ready(function() {
+          $('.list').html('');
+          get_posting();
+      });
+    </script>
+
+</head>
+<body>
+
+    <p>곡 제목 나열</p>
+
+    <ul class="list">
+        <li class="title"></li>
+        <li class="title"></li>
+    </ul>
+
+
+
+
+
+
+</body>
+</html>

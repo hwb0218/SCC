@@ -1,0 +1,26 @@
+.img-product {
+        background-image: url('http://fossilworld.co.kr/web/product/extra/big/fossilworld_13287_3.jpg');
+        width: 800px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        border-radius: 5px;
+        border: solid 2px;
+        border-color: gray;
+      }
+      .contents {
+        width: 800px;
+        margin:auto;
+      }
+      .big-font {
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+      .title {
+        margin: 5px 0px 5px 0px;
+      }
+      .input-group {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
