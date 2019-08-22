@@ -1,6 +1,5 @@
 from flask import Flask, render_template, jsonify, request
 import requests
-from bs4 import BeautifulSoup
 import schedule
 import time
 import smtplib
@@ -12,6 +11,7 @@ client = MongoClient('localhost', 27017)
 db = client.dbsparta
 
 app = Flask(__name__)
+s = smtplib.SMTP('smtp.gmail.com', 587)
 
 def job():
     #     1.db디비에 있는걸 꺼내오고
@@ -32,7 +32,14 @@ def job():
     ticket_data = requests.get(link, headers=headers)
     target = ticket_data['data'][0]['price']
     if  target >= target_price:
+        msg = MIMEText('내용 : 메일 보내기 테스트 ')
+
+        msg['Subject'] = '제목 : 메일 보내기 테스트입니다.'
+
         s.sendmail("hwb0218@gmail.com", "hwb0218@naver.com", msg.as_string())
+
+        s.quit()
+
         print("I'm working...")
 
 
@@ -80,17 +87,11 @@ def get_view():
 
 
 if __name__ == '__main__':
-    s = smtplib.SMTP('smtp.gmail.com', 587)
 
     s.starttls()
 
     s.login('hwb0218@gmail.com', 'vfmbbnnkrxdfcgwc')
 
-    msg = MIMEText('내용 : 메일 보내기 테스트 ')
-
-    msg['Subject'] = '제목 : 메일 보내기 테스트입니다.'
-
-    s.quit()
     #
     # schedule.every(1).second.do(job)
     # while True:
