@@ -13,7 +13,9 @@ movies = soup.select('#old_content > table > tbody > tr')
 
 # movies (tr들) 의 반복문을 돌리기
 for movie in movies:
+    # movie 안에 a가 있으면
     if not movie.a == None:
         title = movie.a.text
         star = movie.select('td.point')[0].text #select는 list로 값을 던져줌
         print(title,star)
+       

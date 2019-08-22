@@ -23,3 +23,5 @@ for movie in movies :
         doc['stars'] = movie.select('td.point')[0].text
         db.movies.insert_one(doc)
 
+        print(doc) # id값 없앨려면 어떻게하지 ..?
+
