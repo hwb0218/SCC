@@ -13,20 +13,6 @@ db = client.dbsparta
 
 app = Flask(__name__)
 
-s = smtplib.SMTP('smtp.gmail.com', 587)
-
-s.starttls()
-
-s.login('hwb0218@gmail.com', 'vfmbbnnkrxdfcgwc')
-
-msg = MIMEText('내용 : 메일 보내기 테스트 ')
-
-msg['Subject'] = '제목 : 메일 보내기 테스트입니다.'
-
-s.sendmail("hwb0218@gmail.com", "hwb0218@naver.com", msg.as_string())
-
-s.quit()
-
 def job():
     #     1.db디비에 있는걸 꺼내오고
     #     2.조건에 맞는걸 찾고
@@ -46,8 +32,8 @@ def job():
     ticket_data = requests.get(link, headers=headers)
     target = ticket_data['data'][0]['price']
     if  target >= target_price:
-
-    print("I'm working...")
+        s.sendmail("hwb0218@gmail.com", "hwb0218@naver.com", msg.as_string())
+        print("I'm working...")
 
 
 @app.route('/')
@@ -94,6 +80,17 @@ def get_view():
 
 
 if __name__ == '__main__':
+    s = smtplib.SMTP('smtp.gmail.com', 587)
+
+    s.starttls()
+
+    s.login('hwb0218@gmail.com', 'vfmbbnnkrxdfcgwc')
+
+    msg = MIMEText('내용 : 메일 보내기 테스트 ')
+
+    msg['Subject'] = '제목 : 메일 보내기 테스트입니다.'
+
+    s.quit()
     #
     # schedule.every(1).second.do(job)
     # while True:
