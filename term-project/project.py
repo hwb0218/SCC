@@ -11,6 +11,7 @@ client = MongoClient('localhost', 27017)
 db = client.dbsparta
 
 app = Flask(__name__)
+
 s = smtplib.SMTP('smtp.gmail.com', 587)
 
 def job():
