@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc36fdd8-bedf-4956-961a-4e9a33f2e84a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../term-project/.idea/term-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../term-project/project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ticket/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/week6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/banana/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/banana/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/airfare2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../term-project/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1주차/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/../1주차/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4th/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4th/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd3/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd3/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/templates/order_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4th/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4th/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4th/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../4th/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4th/crawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../4th/crawling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4th/crawling2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../4th/crawling2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../woobeenhomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../woobeenhomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../term-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../term-project/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../term-project/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/templates/order_list.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -62,9 +68,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="974" />
-    <option name="height" value="1045" />
+    <option name="x" value="673" />
+    <option name="y" value="17" />
+    <option name="width" value="975" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -72,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,10 +91,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -143,9 +151,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="863" y="0" width="882" height="946" extended-state="0" />
+    <frame x="610" y="16" width="883" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5070922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5064935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,7 +177,7 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>

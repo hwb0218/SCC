@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6292efc-be51-47e6-aff5-06444ea43835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../3rd3/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/banana/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/banana/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/airfare2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1주차/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/../1주차/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd3/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd3/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/templates/order_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4th/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4th/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            <state relative-caret-position="456">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -27,10 +43,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-855">
+              <folding>
+                <element signature="e#447#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4370">
-              <caret line="230" column="16" lean-forward="true" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+            <state relative-caret-position="164">
+              <caret line="139" column="2" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+              <folding>
+                <element signature="e#8361#8367#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,27 +70,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>href</find>
-      <find>custom-cont</find>
-      <find>card-p</find>
-      <find>name</find>
-      <find>state</find>
-      <find>to</find>
-      <find>select</find>
-      <find>mail</find>
-      <find>departure</find>
-      <find>도착지</find>
-      <find>order-md-1</find>
-      <find>col-md-8</find>
-      <find>email</find>
-      <find>출발지</find>
       <find>py-5</find>
       <find>bottom</find>
       <find>padding</find>
@@ -74,9 +90,23 @@
       <find>search()</find>
       <find>destination</find>
       <find>format</find>
-      <find>from</find>
       <find>alert</find>
       <find>b</find>
+      <find>target`</find>
+      <find>SEL</find>
+      <find>SEOUL</find>
+      <find>getdate</find>
+      <find>ticket_data['data'][0]['price']</find>
+      <find>price</find>
+      <find>target_price</find>
+      <find>from</find>
+      <find>get_db</find>
+      <find>email</find>
+      <find>e</find>
+      <find>email.mime</find>
+      <find>TKOT</find>
+      <find>html</find>
+      <find>div</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,23 +115,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/static/js/list.js" />
         <option value="$PROJECT_DIR$/templates/order_list.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/banana/__init__.py" />
+        <option value="$PROJECT_DIR$/banana/a.py" />
+        <option value="$PROJECT_DIR$/venv/a.py" />
         <option value="$PROJECT_DIR$/project.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/a.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="782" />
+    <option name="y" value="346" />
+    <option name="width" value="980" />
+    <option name="height" value="530" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,11 +151,14 @@
               <item name="term-project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="term-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +180,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.a">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="term-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="term-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,6 +225,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a" />
         <item itemvalue="Python.project" />
       </list>
     </recent_temporary>
@@ -192,18 +247,18 @@
     <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11706465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11007571" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912637" visible="true" weight="0.3487242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912637" visible="true" weight="0.3329283" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997088" weight="0.399757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928312" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008736" side_tool="true" weight="0.3256379" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -211,18 +266,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11706465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11007571" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912637" visible="true" weight="0.3256379" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912637" visible="true" weight="0.3329283" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997088" weight="0.399757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928312" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008736" side_tool="true" weight="0.3256379" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -231,26 +286,43 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/order_list.html">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/schedule/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="170">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/order_list.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/list.js" />
+    <entry file="file://$PROJECT_DIR$/banana/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/banana/a.py" />
+    <entry file="file://$PROJECT_DIR$/venv/a.py" />
+    <entry file="file://$PROJECT_DIR$/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <folding>
+            <element signature="e#447#462#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="230" column="16" lean-forward="true" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        <state relative-caret-position="164">
+          <caret line="139" column="2" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#8361#8367#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="882d37e4-78b9-4399-bcf4-a0c5914b71b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../term-project/.idea/term-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../term-project/project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ticket/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/.idea/week6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3rd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/banana/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3rd3/banana/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/airfare2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../airfare2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../term-project/banana/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../term-project/banana/a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3rd3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd3/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3rd3/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3rd3/templates/order_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling2.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../woobeenhomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../woobeenhomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../term-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../term-project/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../term-project/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../term-project/templates/order_list.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1558">
+            <state relative-caret-position="1482">
               <caret line="82" column="6" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="6" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -37,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="280">
+              <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -71,6 +75,7 @@
       <find>posting()</find>
       <find>for</find>
       <find>ajax</find>
+      <find>SEOUL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,10 +93,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="949" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="947" />
+    <option name="width" value="980" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -99,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +126,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,10 +274,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1753" height="954" extended-state="7" />
-    <editor active="true" />
+    <frame x="858" y="0" width="887" height="951" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15200932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.074030556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,7 +354,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
+        <state relative-caret-position="1482">
           <caret line="82" column="6" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="6" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -360,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="280">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
         </state>
       </provider>
     </entry>
