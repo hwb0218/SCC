@@ -4,6 +4,7 @@ import schedule
 import time
 
 from pymongo import MongoClient
+from email.mime.text import MIMEText
 
 client = MongoClient('localhost', 27017)
 db = client.dbsparta
@@ -26,12 +27,13 @@ def sending_email(send_to_email):
     email = 'sending.scc.project@gmail.com'  # Your email
     password = 'scc123123!'  # Your email account password
 
-    message = 'This is my message_test'  # The message in the email
+    msg = MIMEText('내용 : target price에 달성했습니다. 확인해 보세요! https://www.kiwi.com/')  # The message in the email
 
+    msg['subject'] = '제목 : Target Pirce 도착!!'
     server = smtplib.SMTP('smtp.gmail.com', 587)  # Connect to the server
     server.starttls()  # Use TLS
     server.login(email, password)  # Login to the email server
-    server.sendmail(email, send_to_email, message)  # Send the email
+    server.sendmail(email, send_to_email, msg.as_string())  # Send the email
     server.quit()  # Logout of the email server
 
     db.tickets.update_one({'is_emailed': False, 'email': send_to_email}, {'$set': {'is_emailed': True}})
@@ -61,8 +63,9 @@ def job():
     get_db_data()
 
 
-schedule.every(3600).seconds.do(job)
+schedule.every(3).seconds.do(job)
 
 while True:
+    print("나 잘 돌아가고 있다!")
     schedule.run_pending()
     time.sleep(1)
